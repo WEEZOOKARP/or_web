@@ -1795,7 +1795,7 @@ a:focus {
  */
 
 .image-container {
-  background-image: url("https://cdn.discordapp.com/attachments/771913163880267817/871998677529546752/unknown.png");
+  background-image: url("../img/banner.jpg");
   background-size: cover;
   position: relative;
   height: 512px;
