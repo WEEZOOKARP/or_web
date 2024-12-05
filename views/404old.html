@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="404.css">
+<script src="404.js"></script>
+<canvas id="c"></canvas>
+
+
+<div class="content">
+  <h1>4<span class="black-hole">0</span>4</h1>
+  <h2>Page not found.</h2>
+</div>
+
+<svg height="0">
+  <filter id="drop-shadow">
+    <feMorphology operator="dilate" radius="10" in="SourceAlpha" result="dilated" />
+
+    <feGaussianBlur stdDeviation="10" in="dilated" result="blurred" />
+
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic" />
+    </feMerge>
+  </filter>
+</svg>

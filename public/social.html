@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Oceanic Rangers</title>
+    <meta name="description" content="Oceanic Rangers is a massive community with members from accross the world that play games such as Arma 3 milsim, Arma 3 Life,  ">
+    <meta name="theme-color" content="#00295c">
+    <link rel="shortcut icon" type="image/png" href="https://cdn.discordapp.com/attachments/820965289951756307/896393897968799774/OceanicRangers_Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="style.css">    <!-- External CSS libraries -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+
+  </head>
+  <header class="main-header">
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navigation" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+          <a href="index.html" class="logo"> <img src="https://cdn.discordapp.com/attachments/820965289951756307/896393897968799774/OceanicRangers_Logo.png" alt="logo"> </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
+          <ul class="nav navbar-nav">
+            <li class="button"> <a href="/index.html">
+                            Home<span class="button"></span>
+                        </a> </li>
+            <li class="dropdown"> <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            Store<span class="caret"></span>
+                        </a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu"> <a tabindex="0">Store</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/Donations">Donations</a></li>
+                    <li><a href="/shop">Store</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="button"> <a href="/Org">
+                            Org Chart<span class="button"></span>
+                        </a> </li>
+            <li class="button"> <a href="/Social">
+                            Socials<span class="button"></span>
+                        </a> </li>
+            <li class="button"> <a href="Privacy_Policy.html">
+                            ReplaceMe<span class="button"></span>
+                        </a> </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        <!-- /.container -->
+      </nav>
+    </div>
+  </header>
+<script>
+      document.querySelector('html').classList.remove('no-js');
+      if (!window.Cypress) {
+        const scrollCounter = document.querySelector('.js-scroll-counter');
+
+        AOS.init({
+          mirror: true
+        });
+
+        document.addEventListener('aos:in', function(e) {
+          console.log('in!', e.detail);
+        });
+
+        window.addEventListener('scroll', function() {
+          scrollCounter.innerHTML = window.pageYOffset;
+        });
+      }
+    </script>
+  <div class="Socials">
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+    <div class="Image2text">
+     <p style="text-align: center;">Follow our social media pages for up to date news on events.</p>
+      <div class="creators" style="font-size: 20px; padding: 20px; text-align: center;">
+        <div class="Instagram" style="padding: 20px; display: inline-block;">
+          <img src="https://cdn.glitch.com/c5b1565d-22c0-4722-8be5-92e416aa7b9d%2F580b57fcd9996e24bc43c521.png" height="300px" width="300px">
+          <br>
+          <hr>
+          <span>Instagram</span>
+          <a href="https://www.instagram.com/epicrunaustralia/?hl=en" onclick="sendMessage()">
+            <button onclick="sendMessage()">Follow</button>
+          </a>
+          </div>
+          <div class="YouTube" style="padding: 20px; text-align: center; display: inline-block;">
+            <img src="https://cdn.glitch.com/c5b1565d-22c0-4722-8be5-92e416aa7b9d%2FUntitled-111.png" height="300px" width="300px">
+            <br>
+            <hr>
+            <span>YouTube</span>
+            <a href="https://www.youtube.com/channel/UCL3u8E1j7N-RfRC65bBuUsw" onclick="sendMessage()">
+              <button onclick="sendMessage()">More</button>
+            </a>
+          </div>
+          <div class="Twitch" style="padding: 20px; text-align: center; display: inline-block;">
+            <img src="https://www.logolynx.com/images/logolynx/cf/cf2a0698fa298db20da5970a5e19a19d.png" height="300px" width="300px">
+            <br>
+            <hr>
+            <span>Twitch</span>
+            <a href="https://www.twitch.tv/epicrunaustralia" onclick="sendMessage()">
+              <button onclick="sendMessage()">More</button>
+            </a>
+          </div>
+          <br>
+      </div>
+            <div class="creators" style="font-size: 20px; padding: 10px; text-align: center;">
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">              
+        <div class="Discord" style="padding: 20px; text-align: center; display: inline-block;">
+            <img src="https://cdn.glitch.com/c5b1565d-22c0-4722-8be5-92e416aa7b9d%2FZOKp8LH.png" height="300px" width="300px">
+            <br>
+            <hr>
+            <span>Discord</span>
+            <a href="https://discord.gg/Ta6U6Z5Q2e" onclick="sendMessage()">
+              <button onclick="sendMessage()">Join</button>
+            </a>
+          </div>
+              </div>
+      </div>
+  </div>
+</div>
+  </div>
